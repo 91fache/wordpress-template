@@ -25,6 +25,7 @@
 	<div id="menu" class="left_box">
 		<ul>
 			<li><a href="https://www.91fache.com/wp-login.php">登录</a></li>
+			<li><a href="https://github.com/91fache">GitHub</a></li>
 		</ul>
 	</div><!-- #menu end -->
 	
