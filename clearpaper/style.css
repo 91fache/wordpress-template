@@ -1,0 +1,219 @@
+@charset "utf-8";
+/*
+Theme Name: Clear Paper
+Theme URI: http://www.91fache.com/
+Description: A wordpress theme, the inspiration comes from Classic Magazine Layouts.
+Version: 1.0
+Author: CNC
+Author URI: http://www.91fache.com/
+Date: July 15, 2012
+
+Update:(Jun 21, 2016) from http://www.geli.org
+
+Tag: White
+*/
+
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	font-family: Arial;
+	line-height: 1.5em;
+	color: #333;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+}
+
+::-moz-selection{
+	background:#ff4f92;
+    color:#fff;
+}
+::selection {
+    background:#ff4f92;
+    color:#fff;
+}
+
+.clear{
+	clear: both;
+}
+#left{
+	width:210px;
+	float:left;
+	padding-left:40px;
+}
+#left a:hover{
+	color: #000;
+}
+#logo{
+	border-bottom: 1px solid #ccc;
+}
+#logo h1{
+	margin: 0;
+	padding: 0;
+}
+#logo h1 a{
+	display: block;
+	/* background: url(images/logo.png) no-repeat;*/
+	background-position-x: 0;
+	background-position-y: 0;
+	width: 210px;
+	height: 100px;
+}
+#logo h1 a:hover{
+	background-position-y: -100px;
+}
+#logo h1 a span{
+	/*display: none;*/
+	display: block;
+    font-size: 2em;
+    line-height: 2em;
+}
+#menu{
+	padding: 20px 0 20px 40px;
+	border-bottom: 1px solid #ccc;
+}
+#menu a{
+	color: #6b6767;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#menu ul li{
+	margin: 0;
+	padding: 9px 0;
+	font-size: 18px;
+	font-family:inherit  ;
+}
+
+
+#info{
+	border-bottom: 1px solid #ccc;
+
+}
+#info a{
+	display: block;
+	padding: 20px 17px;
+	color: #666666;
+	font-size: 14px;	
+}
+#info .info_about{
+	border-right: 1px solid #ccc;
+	float: left;
+}
+#info .info_right{
+	float: left;
+}
+
+
+
+
+#right{
+	width:680px;
+	float: left;
+	border-left: 1px solid #ccc;
+	/*margin-bottom: 100px;*/
+	min-height: 600px;
+}
+#right a:hover{
+	color: #000;
+}
+#head{
+	font-size:25px;
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	padding: 40px 0 0 40px;
+}
+#head a{
+	color: #333;
+}
+
+
+
+.post{
+	padding: 20px 40px;
+	border-bottom: 1px solid #ccc;
+}	
+.post h2{
+	margin: 0;
+	padding: 15px 0;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.post h2 a{
+	color: #111;
+}
+.post_meta a,.post_meta{
+	color: #b7b6b6;
+	
+}
+.post_meta a:hover{
+	color: #000;
+}
+.post_entry img{
+	max-width:598px;
+}
+.post_entry p{
+	margin: 17px 0;
+	padding: 0;
+	line-height: 1.8em;
+	font-size: 13px;
+	color:#333;
+	text-align: justify;
+}
+.post_entry a{
+	padding: 2px;
+	border-bottom: 1px solid #999;
+	color: #333;
+}
+.post_entry a:hover{
+	border-bottom: 1px solid #000;
+}
+.post_entry hr{
+    height:50px;
+	border:none;
+	margin:0;
+	padding:0;
+	background:url(images/hr.png) no-repeat center;	
+}
+
+
+.page{
+	border-bottom: none;
+}
+
+#nav{
+	padding: 60px 0 100px 0;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia;	
+}
+#nav a{
+	color: #666;
+
+}
+#nav .previous a{
+	padding:15px 30px 15px 0;
+}
+#nav .next a{
+	padding:15px 0 15px 30px;
+	border-left: 1px solid #ccc;
+}
+
+
+/* some shit*/
+#boots{
+display:none;
+}
+
+
+
+
+
+
+
