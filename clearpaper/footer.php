@@ -7,3 +7,8 @@
 
 </body>
 </html>
+
+<?php 
+// 引入 footer-test.php
+get_footer("test"); 
+?>
