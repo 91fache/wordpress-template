@@ -19,17 +19,16 @@
 <body>
 
 	
-<div id="wrap">
-
+<div id="wrap" class="body_wrap">
+<?php
+// 引入 header-top.php
+get_header("top"); 
+?>
 	
 <?php 
 	// 引入侧边栏  sidebar.php
-	get_sidebar(); 
+	// get_sidebar(); 
 ?>
 
 <div id="right">
 
-	<div id="head">
-	<a href="/" class="head_content">就要发车</a>
-	</div><!-- #head end -->
-	

@@ -8,10 +8,14 @@
 	
 	get_template_directory_uri():  <?php get_template_directory_uri(); ?>
 	
+	get_stylesheet_directory_uri():  <?php get_stylesheet_directory_uri(); ?>
+	
 	bloginfo("template_url"):  <?php bloginfo("template_url"); ?>
 
 
+安装 Disable Google Fonts 插件
 
 
+参考: http://www.webzhe.com/wordpress-han-shu.html
 
 -->

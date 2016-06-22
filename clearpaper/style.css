@@ -41,16 +41,30 @@ a:hover{
 	clear: both;
 }
 #left{
-	width:210px;
+	width: 95%;
 	float:left;
-	padding-left:40px;
+	margin-left:1px;
+	border-top: 1px solid #ccc;
 }
 #left a:hover{
 	color: #000;
 }
-#logo{
+
+
+.top{
+	width: 95%;
+	float:left;
+	margin-left:1px;
 	border-bottom: 1px solid #ccc;
 }
+.top a:hover{
+	color: #000;
+}
+
+.inline {
+	display: inline-block;
+}
+
 #logo h1{
 	margin: 0;
 	padding: 0;
@@ -66,7 +80,7 @@ a:hover{
 #logo h1 a:hover{
 	background-position-y: -100px;
 }
-#logo h1 a span{
+.logo_wrap{
 	/*display: none;*/
 	display: block;
     font-size: 2em;
@@ -93,7 +107,6 @@ a:hover{
 
 
 #info{
-	border-bottom: 1px solid #ccc;
 
 }
 #info a{
@@ -106,6 +119,11 @@ a:hover{
 	border-right: 1px solid #ccc;
 	float: left;
 }
+
+.info_item{
+	border-right: 1px solid #ccc;
+	float: left;
+}
 #info .info_right{
 	float: left;
 }
@@ -114,7 +132,8 @@ a:hover{
 
 
 #right{
-	width:680px;
+	/*width:680px;*/
+	width: 95%;
 	float: left;
 	border-left: 1px solid #ccc;
 	/*margin-bottom: 100px;*/
@@ -126,7 +145,7 @@ a:hover{
 #head{
 	font-size:25px;
 	height: 60px;
-	border-bottom: 1px solid #ccc;
+	/*border-bottom: 1px solid #ccc;*/
 	padding: 40px 0 0 40px;
 }
 #head a{
@@ -136,7 +155,7 @@ a:hover{
 
 
 .post{
-	padding: 20px 40px;
+	padding: 20px 10px 0px 20px;
 	border-bottom: 1px solid #ccc;
 }	
 .post h2{
@@ -188,7 +207,7 @@ a:hover{
 }
 
 #nav{
-	padding: 60px 0 100px 0;
+	padding: 60px 0 10px 0;
 	text-align: center;
 	font-size: 20px;
 	font-family: Georgia;	

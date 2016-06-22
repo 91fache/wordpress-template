@@ -41,7 +41,7 @@ get_header();
 		
 		<div id="nav">
 		<span class="previous"><a href="" >&laquo; 上一页</a></span>		
-		<span class="next"><a href="" >&raquo; 下一页</a></span>
+		<span class="next"><a href="" >下一页 &raquo;</a></span>
 		</div>		
 
 	
