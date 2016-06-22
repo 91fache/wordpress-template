@@ -24,7 +24,7 @@ get_header();
 					&middot; 
 					<span class="post_meta_date"> <?php the_time("Y年m月d日"); ?></span>
 					<a href="<?php the_permalink(); ?>" title="" rel="category tag">
-						评论
+					[<?php if(function_exists('the_views')) { the_views(); } ?>]
 					</a>
 				</div>
 								
