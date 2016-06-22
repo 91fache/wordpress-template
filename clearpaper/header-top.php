@@ -12,9 +12,7 @@
 	</div><!-- #logo end -->
 	
 	<div id="head" class="inline">
-		<h1 class="inline">
-			<a href="/" class="head_content">就要发车</a>
-		</h1>
+		 <a href="/" class="head_content">就要发车</a>
 	</div><!-- #head end -->
 	
 </div><!-- #top end -->

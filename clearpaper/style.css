@@ -65,6 +65,10 @@ a:hover{
 	display: inline-block;
 }
 
+#logo{
+	margin-left: 20px;
+}
+
 #logo h1{
 	margin: 0;
 	padding: 0;
@@ -150,6 +154,11 @@ a:hover{
 }
 #head a{
 	color: #333;
+}
+
+.head_content{
+	color: #333;
+	font-size: 2em;
 }
 
 
