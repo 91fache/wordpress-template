@@ -18,11 +18,14 @@ get_header();
 					<?php the_title(); ?>
 				</h2>
 				<div class="post_meta">
-					<a href="" title="" rel="category tag">
-						<?php the_tags(); ?> 段子
+					<a rel="category tag">
+						<?php the_category(",") ?>
 					</a> 
 					&middot; 
-					<span class="post_meta_date"> <?php the_date(); ?></span>
+					<span class="post_meta_date"> <?php the_time("Y年m月d日"); ?></span>
+					<a href="<?php the_permalink(); ?>" title="" rel="category tag">
+						评论
+					</a>
 				</div>
 								
 				<div class="post_entry">

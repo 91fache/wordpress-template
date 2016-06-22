@@ -12,6 +12,8 @@
 	
 	bloginfo("template_url"):  <?php bloginfo("template_url"); ?>
 
+	next_posts_link(__("下一页")): <?php next_posts_link(__("下一页")) ?>
+
 
 安装 Disable Google Fonts 插件
 
