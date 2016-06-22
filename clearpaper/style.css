@@ -41,9 +41,11 @@ a:hover{
 	clear: both;
 }
 #left{
-	width: 95%;
+	text-align: right;
+	width: 99%;
 	float:left;
 	margin-left:1px;
+	margin-top: 5px;
 	border-top: 1px solid #ccc;
 }
 #left a:hover{
@@ -52,7 +54,7 @@ a:hover{
 
 
 .top{
-	width: 95%;
+	width: 99%;
 	float:left;
 	margin-left:1px;
 	border-bottom: 1px solid #ccc;
@@ -111,10 +113,10 @@ a:hover{
 
 
 #info{
-
+    padding-top: 20px;
 }
 #info a{
-	display: block;
+	/*display: block;*/
 	padding: 20px 17px;
 	color: #666666;
 	font-size: 14px;	
@@ -126,10 +128,9 @@ a:hover{
 
 .info_item{
 	border-right: 1px solid #ccc;
-	float: left;
+	/*float: left;*/
 }
 #info .info_right{
-	float: left;
 }
 
 
@@ -137,7 +138,7 @@ a:hover{
 
 #right{
 	/*width:680px;*/
-	width: 95%;
+	width: 99%;
 	float: left;
 	border-left: 1px solid #ccc;
 	/*margin-bottom: 100px;*/
