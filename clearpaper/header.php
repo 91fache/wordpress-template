@@ -15,7 +15,6 @@
 	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="bookmark" type="image/x-icon" /> 
 	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="icon" type="image/x-icon" /> 
 	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
 	<link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css" type="text/css" media="screen" />
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -26,9 +25,9 @@
 	remove_action( 'wp_print_styles', 'print_emoji_styles' );
 	remove_action( 'admin_print_styles', 'print_emoji_styles' );
 		
-	wp_head(); 
-	
+	//wp_head(); 
 	?>
+
 </head>
 <body>
 
