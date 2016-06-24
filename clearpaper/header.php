@@ -11,6 +11,11 @@
 	<meta name="orig" content="来自于 twentysixteen 主题" />
 	<meta name="description" content="<?php bloginfo("description"); ?>" />
 	<title> <?php wp_title(" - ",true,'right'); ?> <?php bloginfo("name"); ?></title>
+	
+	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="bookmark" type="image/x-icon" /> 
+	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="icon" type="image/x-icon" /> 
+	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
 	<link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css" type="text/css" media="screen" />
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
