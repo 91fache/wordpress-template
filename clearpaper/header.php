@@ -27,7 +27,10 @@
 		
 	//wp_head(); 
 	?>
-
+<?php 
+// 引入 header-baidu.php
+get_header("baidu"); 
+?>
 </head>
 <body>
 

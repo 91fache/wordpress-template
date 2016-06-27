@@ -11,14 +11,6 @@
 
 </div><!-- wrap end -->
 
-<div style="display: none;">
-
-<?php 
-// 引入 footer-baidu.php
-get_footer("baidu"); 
-?>
-</div>
-
 </body>
 </html>
 
