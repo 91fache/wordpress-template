@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+/*
+ 
+body:
+----head
+--------logo
+--------title
+----content
+--------posts
+------------post-title
+------------post-content
+--------posts
+------------post-title
+------------post-content
+----footer
+--------info
+--------menu
+ 
+ 
+*/
+
+/* 响应样式 */
+
+@media only screen and (max-device-width:480px){
+	.sm-col-12 {
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-device-width:481px) {
+	.md-col-4{
+		width: 33.33%;
+	}
+	.md-col-8{
+		width: 66.66%;
+	}
+	.md-col-12 {
+		width: 100%;
+	}
+	
+	.head{
+		padding-left: 40px;
+	}
+}
+
+
+/* Retina屏幕处理半个像素的边框 */
+/* screen 屏幕  print 打印  */
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+       only screen and (min-device-pixel-ratio:1.5) {
+  button {
+    border:none;
+    padding:0 16px;
+    box-shadow: inset 0 0 1px #000,
+                inset 0 1px 0 #75c2f8,
+                0 1px 1px -1px rgba(0, 0, 0, .5);
+  }
+
+}
+
+
+
+/* 通用样式*/
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	font-family: Arial;
+	line-height: 1.5em;
+	color: #333;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/*部分样式*/
+
+.logo{
+	max-width: 250px;
+	display: inline-block;
+}
+
+.title{
+	display: inline-block;
+}
+
+.head{
+	clear: both;
+	display: block;
+}
+
+
+/* 老的样式 */
+
+
+#left{
+	width:210px;
+	float:left;
+	padding-left:40px;
+}
+#left a:hover{
+	color: #000;
+}
+#logo{
+	border-bottom: 1px solid #ccc;
+}
+#logo h1{
+	margin: 0;
+	padding: 0;
+}
+#logo h1 a{
+	display: block;
+	/* background: url(images/logo.png) no-repeat;*/
+	background-position-x: 0;
+	background-position-y: 0;
+	width: 210px;
+	height: 100px;
+}
+#logo h1 a:hover{
+	background-position-y: -100px;
+}
+#logo h1 a span{
+	/*display: none;*/
+	display: block;
+    font-size: 2em;
+    line-height: 2em;
+}
+#menu{
+	padding: 20px 0 20px 40px;
+	border-bottom: 1px solid #ccc;
+}
+#menu a{
+	color: #6b6767;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#menu ul li{
+	margin: 0;
+	padding: 9px 0;
+	font-size: 18px;
+	font-family:inherit  ;
+}
+
+
+#info{
+	border-bottom: 1px solid #ccc;
+
+}
+#info a{
+	display: block;
+	padding: 20px 17px;
+	color: #666666;
+	font-size: 14px;	
+}
+#info .info_about{
+	border-right: 1px solid #ccc;
+	float: left;
+}
+#info .info_right{
+	float: left;
+}
+
+
+
+
+#right{
+	width:680px;
+	float: left;
+	border-left: 1px solid #ccc;
+	/*margin-bottom: 100px;*/
+	min-height: 600px;
+}
+#right a:hover{
+	color: #000;
+}
+#head{
+	font-size:25px;
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	padding: 40px 0 0 40px;
+}
+#head a{
+	color: #333;
+}
+
+
+
+.post{
+	padding: 20px 40px;
+	border-bottom: 1px solid #ccc;
+}	
+.post h2{
+	margin: 0;
+	padding: 15px 0;
+	font-size: 2em;
+	line-height: 2em;
+}
+.post h2 a{
+	color: #111;
+}
+.post_meta a,.post_meta{
+	color: #b7b6b6;
+	
+}
+.post_meta a:hover{
+	color: #000;
+}
+.post_entry img{
+	max-width:598px;
+}
+.post_entry p{
+	margin: 17px 0;
+	padding: 0;
+	line-height: 1.8em;
+	font-size: 1.4em;
+	color:#333;
+	text-align: justify;
+}
+.post_entry a{
+	padding: 2px;
+	border-bottom: 1px solid #999;
+	color: #333;
+}
+.post_entry a:hover{
+	border-bottom: 1px solid #000;
+}
+.post_entry hr{
+    height:50px;
+	border:none;
+	margin:0;
+	padding:0;
+	background:url(images/hr.png) no-repeat center;	
+}
+
+
+.page{
+	border-bottom: none;
+}
+
+#nav{
+	padding: 60px 0 100px 0;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia;	
+}
+#nav a{
+	color: #666;
+
+}
+#nav .previous a{
+	padding:15px 30px 15px 0;
+}
+#nav .next a{
+	padding:15px 0 15px 30px;
+	border-left: 1px solid #ccc;
+}
+
+
+/* some shit*/
+#boots{
+display:none;
+}
+
+
+
+
+
+
+
