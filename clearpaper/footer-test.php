@@ -14,6 +14,8 @@
 
 	next_posts_link(__("下一页")): <?php next_posts_link(__("下一页")) ?>
 	
+	timer_stop(1): <?php timer_stop(1); ?>
+	
 	wp_head(): 
 	
 	<?php 

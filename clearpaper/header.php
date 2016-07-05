@@ -7,10 +7,15 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="generator" content="WordPress 4.5.2" />
+	<meta name="generator" content="WordPress <?php bloginfo("version"); ?>" />
 	<meta name="orig" content="来自于 twentysixteen 主题" />
 	<meta name="description" content="<?php bloginfo("description"); ?>" />
-	<title> <?php wp_title(" - ",true,'right'); ?> <?php bloginfo("name"); ?></title>
+	<title> <?php
+if (is_home()) { echo bloginfo('name'); }
+elseif (is_404()) { bloginfo('name'); echo ' - Oops, this is a 404 page'; }
+else if ( is_search() ) { bloginfo('name'); echo (' - Search Results');}
+else {wp_title('');  echo (' - '); bloginfo('name');}
+?></title>
 	
 	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="bookmark" type="image/x-icon" /> 
 	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="icon" type="image/x-icon" /> 
