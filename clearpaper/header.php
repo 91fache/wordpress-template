@@ -10,6 +10,7 @@
 	<meta name="generator" content="WordPress <?php bloginfo("version"); ?>" />
 	<meta name="orig" content="来自于 twentysixteen 主题" />
 	<meta name="description" content="<?php bloginfo("description"); ?>" />
+	<meta name="google-site-verification" content="15762f8Dum-f4qP5k8LE3p2OKIqlMu9Y7heeMoHw-N8" />
 	<title> <?php
 if (is_home()) { echo bloginfo('name'); }
 elseif (is_404()) { bloginfo('name'); echo ' - Oops, this is a 404 page'; }
@@ -21,6 +22,8 @@ else {wp_title('');  echo (' - '); bloginfo('name');}
 	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="icon" type="image/x-icon" /> 
 	<link href="<?php bloginfo("template_url"); ?>/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php bloginfo("template_url"); ?>/sticky-footer.css">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
