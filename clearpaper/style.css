@@ -133,7 +133,9 @@ a:hover{
 #info .info_right{
 }
 
-
+.col-center-block{
+    text-align: center;
+}
 
 
 #right{
@@ -141,8 +143,8 @@ a:hover{
 	width: 99%;
 	float: left;
 	border-left: 1px solid #ccc;
-	/*margin-bottom: 100px;*/
-	min-height: 600px;
+	/*margin-bottom: 100px;
+	min-height: 600px;*/
 }
 #right a:hover{
 	color: #000;
