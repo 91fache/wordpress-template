@@ -15,14 +15,12 @@ get_header();
 		?>
 			<div class="post">
 				<h2 class="post_title">
+                    <a href="<?php the_permalink(); ?>" title="" rel="category tag">
 					<?php the_title(); ?>
+					</a>
 				</h2>
 				<div class="post_meta">
-					<a rel="category tag">
-						<?php the_category(",") ?>
-					</a>
-					&middot;
-					<span class="post_meta_date"> <?php the_time("Y年m月d日"); ?></span>
+					<span class="post_meta_date"> 发布时间&middot; <?php the_time("Y年m月d日"); ?></span>
 					<a href="<?php the_permalink(); ?>" title="" rel="category tag">
 					[<?php if(function_exists('the_views')) { the_views(); } ?>]
 					</a>
