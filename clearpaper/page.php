@@ -43,8 +43,8 @@ get_header();
 		</div><!-- #posts end -->
 
 		<div id="nav">
-		<span class="previous"><?php next_post_link("%link", "&laquo; 上一页 "); ?></span>
-		<span class="next"><?php previous_post_link("%link", "下一页 &raquo;"); ?></span>
+		<span class="previous"><?php previous_posts_link("&laquo; 上一页 ") ?></span>
+		<span class="next"><?php next_posts_link(__("下一页 &raquo;")) ?> </span>
         <!-- debug: 本段内容由 page.php 生成  -->
 		</div>
 
