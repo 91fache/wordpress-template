@@ -2,9 +2,9 @@
 </div><!-- #right end -->
 
 
-<?php 
+<?php
 	// 引入侧边栏  sidebar.php
-	// get_sidebar(); 
+	// get_sidebar();
 ?>
 
 <div class="clear"></div>
@@ -15,7 +15,7 @@
   <div class="container col-center-block" id="info">
 		<a class="info_item" target="_blank" href="https://www.91fache.com/wp-admin/">登录</a>
 		<a class="info_item" target="_blank" href="https://github.com/91fache">GitHub</a>
-		<a href="http://www.91fache.com/" class="info_right">&copy; 2016</a>
+		<a href="//www.91fache.com/" class="info_right">&copy; 2016</a>
   </div>
 </footer>
 
@@ -28,7 +28,7 @@
 </body>
 </html>
 
-<?php 
+<?php
 // 引入 footer-test.php
-get_footer("test"); 
+get_footer("test");
 ?>
